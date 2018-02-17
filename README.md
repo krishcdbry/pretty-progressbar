@@ -100,10 +100,10 @@ Name               | Required | Type     | Description |
 
 
 ## Author
-Krishcdbry [krishcdbry@gmail.com]
+Krishcdbry (krishcdbry@gmail.com)
 
 ## Demo
-Click here [https://krishcdbry.github.io/pretty-progressbar/demo/]
+Click here (https://krishcdbry.github.io/pretty-progressbar/demo/)
 
 ## Licence
 MIT @[krishcdbry](krishcdbry.com)

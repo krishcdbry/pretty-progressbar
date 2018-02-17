@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
 import  {
     propTypes,
+    defaultProps,
 
     progressbar_Default,
     progressbar_Circle,
@@ -88,5 +88,8 @@ class PrettyProgressbar extends React.Component {
         )
     }
 }
+
+PrettyProgressbar.propTypes = propTypes;
+PrettyProgressbar.defaultProps = defaultProps;
 
 export default PrettyProgressbar;

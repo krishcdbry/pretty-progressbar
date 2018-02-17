@@ -1,9 +1,16 @@
 import PropTypes from 'prop-types';
 
 const propTypes = {
-    label : PropTypes.bool,
-    percentage : PropTypes.string.isRequired,
-    style : PropTypes.object
+    label : PropTypes.bool,                     // Progress from 0 to 100. Default 0        
+    percentage : PropTypes.string.isRequired,   // Which shows percentage on the progress bar (true/false) - Default false
+    type : PropTypes.string,                    // Which defines type of progress bar (default/circle/cyclinder/square) - Default 
+    progressBarStyle : PropTypes.object,        // Style object for the progressbar wrapper (container)   
+    progressStyle: PropTypes.object             // Style object for the progress (content)
+}
+
+const defaultProps = {
+    lable : false,
+    percentage : 0
 }
 
 const progressbar_Default = {
@@ -90,7 +97,8 @@ const progress_Square = Object.assign({}, progress_Default, squareStyle);
 
 export {
     propTypes,
-
+    defaultProps,
+    
     progressbar_Default,
     progressbar_Circle,
     progressbar_Cyclinder,

@@ -1071,6 +1071,9 @@ var PrettyProgressbar = function (_React$Component) {
     return PrettyProgressbar;
 }(_react2.default.Component);
 
+PrettyProgressbar.propTypes = _constants.propTypes;
+PrettyProgressbar.defaultProps = _constants.defaultProps;
+
 exports.default = PrettyProgressbar;
 
 /***/ }),
@@ -16979,7 +16982,7 @@ module.exports = camelize;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.labelStyle = exports.progress_Square = exports.progress_Cyclinder = exports.progress_Circle = exports.progress_Default = exports.progressbar_Square = exports.progressbar_Cyclinder = exports.progressbar_Circle = exports.progressbar_Default = exports.propTypes = undefined;
+exports.labelStyle = exports.progress_Square = exports.progress_Cyclinder = exports.progress_Circle = exports.progress_Default = exports.progressbar_Square = exports.progressbar_Cyclinder = exports.progressbar_Circle = exports.progressbar_Default = exports.defaultProps = exports.propTypes = undefined;
 
 var _propTypes = __webpack_require__(26);
 
@@ -16990,7 +16993,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var propTypes = {
     label: _propTypes2.default.bool,
     percentage: _propTypes2.default.string.isRequired,
-    style: _propTypes2.default.object
+    progressBarStyle: _propTypes2.default.object,
+    progressStyle: _propTypes2.default.object
+};
+
+var defaultProps = {
+    lable: false,
+    percentage: 0
 };
 
 var progressbar_Default = {
@@ -17073,6 +17082,7 @@ var progressbar_Square = Object.assign({}, progressbar_Default, squareBarStyle);
 var progress_Square = Object.assign({}, progress_Default, squareStyle);
 
 exports.propTypes = propTypes;
+exports.defaultProps = defaultProps;
 exports.progressbar_Default = progressbar_Default;
 exports.progressbar_Circle = progressbar_Circle;
 exports.progressbar_Cyclinder = progressbar_Cyclinder;

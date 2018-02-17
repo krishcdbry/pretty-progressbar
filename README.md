@@ -84,6 +84,8 @@ render(
 ![Pretty Progress Bar](https://raw.githubusercontent.com/krishcdbry/pretty-progressbar/master/demo/assets/progressbar-circle.png)
 
 
+![Pretty Progress Bar](https://media.giphy.com/media/yvqUDxA4HZ0w4iHY0Z/giphy.gif)
+
 Props
 -----
 

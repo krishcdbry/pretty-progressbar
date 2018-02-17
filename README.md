@@ -32,7 +32,7 @@ class App extends React.Component {
  render() {
         return (
            <PrettyProgressbar 
-                 percentage="40" 
+                 percentage="41" 
                  type='default' 
                  label="true"/>
         )
@@ -69,7 +69,7 @@ class App extends React.Component {
 
         return (
            <PrettyProgressbar 
-                 percentage="65"
+                 percentage="81"
                  type='circle' 
                  label="true"
                  progressbarStyle={progressBarStyle} 

@@ -1046,17 +1046,7 @@ var App = function (_React$Component) {
                         type: 'circle',
                         label: 'true',
                         progressbarStyle: progressBarStyle,
-                        progressStyle: progressStyle }),
-                    _react2.default.createElement(
-                        'pre',
-                        { contenteditable: true },
-                        _react2.default.createElement(_index2.default, {
-                            percentage: this.state.percentage,
-                            type: 'circle',
-                            label: 'true',
-                            progressbarStyle: progressBarStyle,
-                            progressStyle: progressStyle })
-                    )
+                        progressStyle: progressStyle })
                 ),
                 _react2.default.createElement(
                     'div',

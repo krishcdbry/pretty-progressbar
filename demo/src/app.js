@@ -16,7 +16,7 @@ class App extends React.Component {
             percentage += 0.01;
             if (percentage < 100) {
                 this.setState({
-                    percentage : percentage.toString()
+                    percentage : percentage
                 })
             }
             else {
@@ -44,11 +44,11 @@ class App extends React.Component {
 
                 <div className="section">
                     <h3> Default </h3>
-                    <PrettyProgressbar percentage={this.state.percentage} label="true"/>
+                    <PrettyProgressbar percentage={this.state.percentage} label={true}/>
                 </div>
 
                 <div className="section">
-                    <h3> Cyclinder </h3>
+                    <h3> Cylinder </h3>
                     <PrettyProgressbar percentage={this.state.percentage} type='cylinder'/>
                 </div>
 
@@ -57,7 +57,7 @@ class App extends React.Component {
                     <PrettyProgressbar 
                         percentage={this.state.percentage} 
                         type='circle' 
-                        label="true"
+                        label={true}
                         progressbarStyle={progressBarStyle} 
                         progressStyle={progressStyle}/>
                 </div>

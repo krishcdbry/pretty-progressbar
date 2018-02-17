@@ -34,7 +34,7 @@ class App extends React.Component {
            <PrettyProgressbar 
                  percentage="41" 
                  type='default' 
-                 label="true"/>
+                 label={true}/>
         )
     }
 }
@@ -71,7 +71,7 @@ class App extends React.Component {
            <PrettyProgressbar 
                  percentage="81"
                  type='circle' 
-                 label="true"
+                 label={true}
                  progressbarStyle={progressBarStyle} 
                  progressStyle={progressStyle}/>
         )
@@ -91,7 +91,7 @@ Props
 
 Name               | Required | Type     | Description |
 -------------------|----------|----------|------------------------------------------------------------------------
-`percentage`       | Yes      | string   | Progress from 0 to 100. Default 0
+`percentage`       | Yes      | number   | Progress from 0 to 100. Default 0
 `label`            | No       | boolean  | Which shows percentage on the progress bar (true/false) - Default false
 `type`             | No       | string   | Which defines type of progress bar (default/circle/cyclinder/square) - Default 
 `progressbarStyle` | No       | object   | Style object for the progressbar wrapper (container)

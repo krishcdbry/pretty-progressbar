@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
 const propTypes = {
-    label : PropTypes.bool,                     // Progress from 0 to 100. Default 0        
-    percentage : PropTypes.string.isRequired,   // Which shows percentage on the progress bar (true/false) - Default false
+    percentage : PropTypes.number.isRequired,   // Progress from 0 to 100. Default 0 
+    label : PropTypes.bool,                     // Which shows percentage on the progress bar (true/false) - Default false       
     type : PropTypes.string,                    // Which defines type of progress bar (default/circle/cyclinder/square) - Default 
     progressBarStyle : PropTypes.object,        // Style object for the progressbar wrapper (container)   
     progressStyle: PropTypes.object             // Style object for the progress (content)
@@ -66,18 +66,18 @@ const progressbar_Circle = Object.assign({}, progressbar_Default, circleBarStyle
 const progress_Circle = Object.assign({}, progress_Default, circleStyle);
 
 // Cyclinder
-const cyclinderBarStyle = {
+const cylinderBarStyle = {
     progressbar_Default,
     borderRadius: '30px'
 }
 
-const cyclinderStyle = {
+const cylinderStyle = {
     background: '#22a0ce',
     transform: 'scaleX(0)'
 }
 
-const progressbar_Cyclinder = Object.assign({}, progressbar_Default, cyclinderBarStyle);
-const progress_Cyclinder = Object.assign({}, progress_Default, cyclinderStyle);
+const progressbar_Cylinder = Object.assign({}, progressbar_Default, cylinderBarStyle);
+const progress_Cylinder = Object.assign({}, progress_Default, cylinderStyle);
 
 
 // Square
@@ -101,13 +101,13 @@ export {
     
     progressbar_Default,
     progressbar_Circle,
-    progressbar_Cyclinder,
+    progressbar_Cylinder,
     progressbar_Square,
 
 
     progress_Default,
     progress_Circle,
-    progress_Cyclinder,
+    progress_Cylinder,
     progress_Square,
 
     labelStyle

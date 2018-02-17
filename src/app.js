@@ -5,13 +5,13 @@ import  {
 
     progressbar_Default,
     progressbar_Circle,
-    progressbar_Cyclinder,
+    progressbar_Cylinder,
     progressbar_Square,
 
 
     progress_Default,
     progress_Circle,
-    progress_Cyclinder,
+    progress_Cylinder,
     progress_Square,
 
     labelStyle
@@ -25,7 +25,7 @@ class PrettyProgressbar extends React.Component {
 
         this.state = {
             style : finalStyle,
-            label : 0
+            label : false
         }
     }
 
@@ -47,8 +47,8 @@ class PrettyProgressbar extends React.Component {
                 break;
             }
             case 'cylinder' : {
-                defaultProgressStyle = progress_Cyclinder;
-                defaultProgressBarStyle = progressbar_Cyclinder;
+                defaultProgressStyle = progress_Cylinder;
+                defaultProgressBarStyle = progressbar_Cylinder;
                 transform = 'scaleX('+percentage/100+')';
                 break;
             }

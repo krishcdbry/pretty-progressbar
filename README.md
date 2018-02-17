@@ -103,7 +103,7 @@ Name               | Required | Type     | Description |
 Krishcdbry (krishcdbry@gmail.com)
 
 ## Demo
-Click here (https://krishcdbry.github.io/pretty-progressbar/demo/)
+Click here @[https://krishcdbry.github.io/pretty-progressbar/demo/](https://krishcdbry.github.io/pretty-progressbar/demo/)
 
 ## Licence
 MIT @[krishcdbry](krishcdbry.com)

@@ -1,7 +1,7 @@
 # pretty-progressbar  [![NPM version](https://img.shields.io/npm/v/pretty-progressbar.svg)](https://www.npmjs.com/package/pretty-progressbar)
 [![Downloads](http://img.shields.io/npm/dm/pretty-progressbar.svg)](https://npmjs.org/package/pretty-progressbar)
 
-A generic React component which renders a responsive and slick progress bars. 4 type of progress bars with options to customize accordingly.
+A generic React component which renders a responsive and slick progress bars. It provides 4 type of progress bars with options to customize them accordingly.
 
 ![Pretty Progress Bar](https://media.giphy.com/media/yvqUDxA4HZ0w4iHY0Z/giphy.gif)
 

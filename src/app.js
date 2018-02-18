@@ -78,12 +78,12 @@ class PrettyProgressbar extends React.Component {
     }
 
     render() {
-        let {type} = this.props;
+        let {percentage, type} = this.props;
         let progressBarClassName = "pretty-progress-bar " + type;
         return (
             <div className={progressBarClassName} style={this.state.style.progressbar}>
                 <label style={labelStyle}>{this.state.label}</label>
-                <div className="progress-bar" style={this.state.style.progress}/>
+                <div className="progress-bar" val={percentage} style={this.state.style.progress}/>
             </div>
         )
     }

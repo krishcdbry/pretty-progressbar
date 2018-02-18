@@ -550,7 +550,9 @@ var PrettyProgressbar = function (_React$Component) {
     }, {
         key: 'render',
         value: function render() {
-            var type = this.props.type;
+            var _props = this.props,
+                percentage = _props.percentage,
+                type = _props.type;
 
             var progressBarClassName = "pretty-progress-bar " + type;
             return _react2.default.createElement(
@@ -561,7 +563,7 @@ var PrettyProgressbar = function (_React$Component) {
                     { style: _constants.labelStyle },
                     this.state.label
                 ),
-                _react2.default.createElement('div', { className: 'progress-bar', style: this.state.style.progress })
+                _react2.default.createElement('div', { className: 'progress-bar', val: percentage, style: this.state.style.progress })
             );
         }
     }]);

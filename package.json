@@ -1,6 +1,6 @@
 {
   "name": "pretty-progressbar",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A generic React component which renders a responsive and slick progress bars. It provides 4 type of progress bars with options to customize them accordingly.",
   "main": "dist/index.js",
   "scripts": {

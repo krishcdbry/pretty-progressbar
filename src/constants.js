@@ -34,7 +34,7 @@ const progress_Default = {
     width: '100%',
     height: '100%',
     background: 'limegreen',
-    zIndex: '-1',
+    zIndex: 1,
     transform: 'scaleX(0)',
     transformOrigin: '0% 100%'
 }
